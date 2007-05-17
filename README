@@ -10,7 +10,7 @@ IModule typelib capabilities.
 Runtime requirements:
   cygwin-1.5.24-2
   ORBit2-2.14.5-1
-  python-2.4.3-1
+  python-2.5.1-1
 
 Build requirements:
 (besides corresponding devel packages)
@@ -18,7 +18,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.10-1
+  cygport-0.3.1-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -51,14 +51,14 @@ Files included in the binary package:
 
   /usr/include/pyorbit-2/pyorbit.h
   /usr/lib/pkgconfig/pyorbit-2.pc
-  /usr/lib/python2.4/site-packages/CORBA.py
-  /usr/lib/python2.4/site-packages/CORBA.pyc
-  /usr/lib/python2.4/site-packages/CORBA.pyo
-  /usr/lib/python2.4/site-packages/ORBit.dll
-  /usr/lib/python2.4/site-packages/ORBit.la
-  /usr/lib/python2.4/site-packages/PortableServer.py
-  /usr/lib/python2.4/site-packages/PortableServer.pyc
-  /usr/lib/python2.4/site-packages/PortableServer.pyo
+  /usr/lib/python2.5/site-packages/CORBA.py
+  /usr/lib/python2.5/site-packages/CORBA.pyc
+  /usr/lib/python2.5/site-packages/CORBA.pyo
+  /usr/lib/python2.5/site-packages/ORBit.dll
+  /usr/lib/python2.5/site-packages/ORBit.la
+  /usr/lib/python2.5/site-packages/PortableServer.py
+  /usr/lib/python2.5/site-packages/PortableServer.pyc
+  /usr/lib/python2.5/site-packages/PortableServer.pyo
   /usr/share/doc/Cygwin/pyorbit-2.14.2.README
   /usr/share/doc/pyorbit-2.14.2/AUTHORS
   /usr/share/doc/pyorbit-2.14.2/COPYING
@@ -72,6 +72,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 2.14.2-2 -----
+Rebuilt for python-2.5.
 
 ----- version 2.14.2-1 -----
 Version bump.
