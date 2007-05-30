@@ -1,0 +1,4 @@
+inherit pygtk
+
+DESCRIPTION="Python ORBit2 bindings"
+HOMEPAGE="http://www.pygtk.org/"
