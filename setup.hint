@@ -1,5 +1,5 @@
 category: Python Gnome
-requires: cygwin ORBit2 python
+requires: cygwin libORBit2_0 python
 sdesc: "Python bindings for ORBit-2"
 ldesc: "PyORBit is a Python binding for the ORBit2 CORBA ORB. It was 
 developped to suit the needs of the bonobo bindings in GNOME-Python, 

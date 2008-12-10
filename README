@@ -8,22 +8,21 @@ typelibs, IDL files, or by introspecting remote objects using ORBit2's
 IModule typelib capabilities.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  ORBit2-2.14.7-1
-  python-2.5.1-1
+  cygwin-1.5.25-15
+  libORBit2_0-2.14.16-1
+  python-2.5.2-3
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.1-1
-  gawk-3.1.5-4
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.6a-1
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -35,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-orbit-2.14.3-X-src.tar.bz2
+  unpack python-orbit-2.24.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-orbit-2.14.3-X.cygport all
+  cygport ./python-orbit-2.24.0-X.cygport all
 
 This will create:
-  /usr/src/python-orbit-2.14.3-X-src.tar.bz2
-  /usr/src/python-orbit-2.14.3-X.tar.bz2
+  /usr/src/python-orbit-2.24.0-X-src.tar.bz2
+  /usr/src/python-orbit-2.24.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,19 +58,21 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/PortableServer.py
   /usr/lib/python2.5/site-packages/PortableServer.pyc
   /usr/lib/python2.5/site-packages/PortableServer.pyo
-  /usr/share/doc/Cygwin/python-orbit-2.14.3.README
-  /usr/share/doc/python-orbit-2.14.3/AUTHORS
-  /usr/share/doc/python-orbit-2.14.3/COPYING
-  /usr/share/doc/python-orbit-2.14.3/ChangeLog
-  /usr/share/doc/python-orbit-2.14.3/INSTALL
-  /usr/share/doc/python-orbit-2.14.3/MAINTAINERS
-  /usr/share/doc/python-orbit-2.14.3/NEWS
-  /usr/share/doc/python-orbit-2.14.3/README
-  /usr/share/doc/python-orbit-2.14.3/TODO
+  /usr/share/doc/python-orbit-2.24.0/AUTHORS
+  /usr/share/doc/python-orbit-2.24.0/COPYING
+  /usr/share/doc/python-orbit-2.24.0/ChangeLog
+  /usr/share/doc/python-orbit-2.24.0/INSTALL
+  /usr/share/doc/python-orbit-2.24.0/MAINTAINERS
+  /usr/share/doc/python-orbit-2.24.0/NEWS
+  /usr/share/doc/python-orbit-2.24.0/README
+  /usr/share/doc/python-orbit-2.24.0/TODO
 
 --------------------
 
 Port Notes:
+
+----- version 2.24.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.14.3-1 -----
 Version bump.
