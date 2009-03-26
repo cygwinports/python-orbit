@@ -1,0 +1,11 @@
+--- origsrc/pyorbit-2.24.0/configure.in	2008-09-23 07:27:43.000000000 -0500
++++ src/pyorbit-2.24.0/configure.in	2009-03-26 03:20:35.801500000 -0500
+@@ -32,6 +32,8 @@ AC_SUBST([ORBIT2_REQUIRED_VERSION], [orb
+ 
+ AC_DISABLE_STATIC
+ AC_PROG_LIBTOOL
++dnl when using libtool 2.x create libtool early, because it's used in configure
++m4_ifdef([LT_OUTPUT], [LT_OUTPUT])
+ 
+ AM_PATH_PYTHON([2.4])
+ 
