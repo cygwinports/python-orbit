@@ -1,0 +1,21 @@
+inherit pygtk
+
+NAME="python-orbit"
+VERSION=2.24.0
+RELEASE=12
+CATEGORY="Python"
+SUMMARY="Python bindings for ORBit-2"
+DESCRIPTION="PyORBit is a Python binding for the ORBit2 CORBA ORB. It was
+developed to suit the needs of the bonobo bindings in GNOME-Python, but is
+usable for other purposes as well. It aims to follow the standard Python
+language mapping for CORBA. It can generate stubs at runtime from typelibs,
+IDL files, or by introspecting remote objects using ORBit2's IModule typelib
+capabilities."
+HOMEPAGE="http://www.pygtk.org/"
+
+PATCH_URI="2.24.0-libtool22.patch"
+
+PKG_NAMES="${NAME} ${NAME}-devel"
+python_orbit_CONTENTS="${PYTHON_SITELIB#/} usr/share/"
+python_orbit_devel_REQUIRES="python-orbit"
+python_orbit_devel_CONTENTS="usr/include/ usr/lib/pkgconfig/"

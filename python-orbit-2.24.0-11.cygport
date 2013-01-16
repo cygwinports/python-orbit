@@ -1,6 +1,0 @@
-inherit pygtk
-
-DESCRIPTION="Python ORBit2 bindings"
-HOMEPAGE="http://www.pygtk.org/"
-
-PATCH_URI="2.24.0-libtool22.patch"
